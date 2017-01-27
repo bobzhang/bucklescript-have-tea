@@ -1,6 +1,15 @@
 {
     "name" : "bucklescript-have-tea", 
-    "version" : "0.1",
-    "dependencies" : {"bucklescript-tea" : "0.1.2" },
-    "peerDependencies" : { "bs-platform" : "^1.4.1"}
+    "version" : "0.1.0",
+    "scripts" : {
+        "clean" : "bsb -clean-world",
+        "prebuild" : "npm run clean",
+        "build" : "bsb -make-world",
+        "pretest" : "npm run build",
+        "test" : "echo 'Create test harness'",
+        "prewatch" : "npm run clean",
+        "watch" : "bsb -w"
+    },
+    "dependencies" : { "bucklescript-tea" : "^0.1.2" },
+    "peerDependencies" : { "bs-platform" : "^1.4.1" }
 }
