@@ -1,4 +1,6 @@
 {
     "name" : "bucklescript-have-tea", 
-    "version" : "0.1"
+    "version" : "0.1",
+    "dependencies" : {"bucklescript-tea" : "0.1.2" },
+    "peerDependencies : { "bs-platform": "^1.4.1"}
 }
