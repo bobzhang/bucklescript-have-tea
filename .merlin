@@ -1,0 +1,11 @@
+####{BSB GENERATED: NO EDIT
+S /usr/local/lib/node_modules/bs-platform/bin/../lib/ocaml
+B /usr/local/lib/node_modules/bs-platform/bin/../lib/ocaml
+FLG -ppx /usr/local/lib/node_modules/bs-platform/bin/bsppx.exe
+
+S /Users/hongbozhang/git/bucklescript-tea-bs/node_modules/bucklescript-tea/lib/ocaml
+B /Users/hongbozhang/git/bucklescript-tea-bs/node_modules/bucklescript-tea/lib/ocaml
+
+S src
+B lib/bs/src
+####BSB GENERATED: NO EDIT}
