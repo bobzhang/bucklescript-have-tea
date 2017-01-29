@@ -1,4 +1,4 @@
-A sample project to show how to use [https://github.com/OvermindDL1/bucklescript-tea](BuckleScript-tea)
+A sample project to show how to use [BuckleScript-tea](https://github.com/OvermindDL1/bucklescript-tea)
 
 ```
 npm install
