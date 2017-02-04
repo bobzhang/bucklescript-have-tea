@@ -1,8 +1,6 @@
 {
     "name" : "bucklescript-have-tea",
-    "sources" : {
-        "dir" : "src"
-    },
+    "sources" :  "src",
     "bs-dependencies": [
       "bucklescript-tea"  
     ]
